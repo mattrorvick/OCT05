@@ -1,0 +1,42 @@
+.img-thumbnail {
+    width: 100%;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+#order-button {
+    text-align: center;
+    margin: 45px 0px 0px 0px;
+}
+
+form {
+    margin: 50px;
+}
+
+#heroimage {
+    margin: 50px;
+}
+
+.col-md-12 {
+    text-align: center;
+}
+
+.footer {
+    background-color: whitesmoke;
+    height: 200px;
+    margin: 30px;
+    padding: 100px;
+}
+
+#footernav {
+    text-align: center;
+}
+
+#coffeecups {
+    
+    transform: rotate(90deg);
+}

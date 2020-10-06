@@ -3,14 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strapping Good Coffee</title>
+    <title>Order some of that!</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="styles.css" type="text/css"/>
 </head>
 <body>
-    <!-- Start of NavBar -->
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +17,7 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -50,73 +48,66 @@
         </div>
       </nav>
 
-    <!-- End of NavBar -->
-
-
-
-
-    <!-- Begin jumbotron -->
-
-    <div class="jumbotron">
-        <div class="container">
-            <h1 class="animate__animated animate__fadeInDown">Good Coffee</h1>
-            <div id="order-button">
-                <a href="ordercoffee.html" class="btn btn-lg btn-primary">Order Cup o' Joe</a>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- End jumbotron -->
-
-    <div class="container-fluid mission">
-        <div class="row">
-            <h3>Here at Good Coffee Co. we are passionate about serving the best coffee you've ever had. <br/> Our staff are self-described coffee-nerds with impeccable technique. <br/> Stop by today and experience the Good Coffee difference.</h3>
-        </div>
-    </div>
-
+      <h1>Order Sum!</h1>
     
-    <div class="container features">
-        <div class="row">
-            <div class="col-xs-12 col-sm-4 col-md-6">
-                <img src="coffeebeans.jpg" alt="coffeebeans" class="img-fluid">
-                <p>Fresh Coffee</p>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-6">
-                <img src="coffeebeans.jpg" alt="coffeebeans" class="img-fluid">
-                <p>Fresh Coffee</p>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-12">
-                <img src="coffeebeans.jpg" alt="coffeebeans" class="img-fluid">
-                <p>Fresh Coffee</p>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="embed-fluid embed-responsive-16by9">
-        <iframe class="col-md-12" src="https://www.youtube.com/embed/ZfW-TU7RSXo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div> 
-
-    <!-- Beginning card
-
     <div class="container">
+
         <div class="row">
             <div class="col-md-12">
-                <div class="card">
-                    <div class="card-header">Title</div>
-                    <div class="card-body">Content</div>
-                    <div class="card-footer">Footer</div>
-                </div>
+                <img id="coffeecups" src="threecupscoffee.jpeg" alt="coffeecups">
             </div>
-        </div>
+            
+      </div>
+      <div class="row">
+          <div class="col-md-12">
+              <div class="form-group">
+                  <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="First & Last Name">
+                  <br>
+                  <select class="form-control"> <!-- form-control-lg OR form-control-sm -->
+                      <option>Hot</option>
+                      <option>Cold</option>
+                    </select>
+                    <br>
+                    <select class="form-control">
+                      <option>Caramel</option>
+                      <option>Regular</option>
+                      <option>Seasonal</option>
+                    </select>
+                    <br>
+                    <select class="form-control">
+                      <option>Large</option>
+                      <option>Medium</option>
+                      <option>Small</option>
+                    </select>
+                    <br>
+              
+                  <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Special Instructions</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                    <button class="btn btn-md btn-success">Submit</button>
+              </div>
+          </div>
+      </div>
+
+
     </div>
+        
+        
+                  
+                
 
-    End card -->
+                    
+                      
+                      
+               
+                      
+                  
+                  
+       
+    
 
-
-
-    <!-- Footer -->
+    
 
     <div class="footer">
         <div class="container">
@@ -130,17 +121,17 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <p class="text-right"><a href="#">Follow Us</a></p>
+                    <a href="#">Follow Us</a>
                 </div>
             </div>
         </div>
     </div>
+    
 
 
 
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
